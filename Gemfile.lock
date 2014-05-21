@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    poseidon (0.0.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  poseidon

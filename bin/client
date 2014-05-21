@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -ex
+
+redis-cli lpush abc 1
+redis-cli lpush def x
+redis-cli lpush abc 2
+redis-cli lpush def y
+redis-cli lpush abc 3
+redis-cli rpop abc
+redis-cli rpop abc
+redis-cli rpop abc
+redis-cli rpop def
+redis-cli rpop def
